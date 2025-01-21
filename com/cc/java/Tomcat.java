@@ -1,20 +1,11 @@
 package com.cc.java;
-
-public class Tomcat {
-
-    private String firstName;
-    private String furColor;
-    private int age;
+// Verweiß / Ausweitung zur Supercat
+public class Tomcat extends SuperCat {
 
     // Constructor
     public Tomcat(String firstName, String furColor, int age) {
-        this.firstName = firstName;
-        this.furColor = furColor;
-        this.age = age;
-    }
-
-    // Verweiß auf Supercat
-    
+        super(firstName,furColor,age);
+ 
     }
 
     public String getAge() {

@@ -13,16 +13,8 @@ public class Tomcat {
         this.age = age;
     }
 
-    /** Getter */
-    public String getStringAttributes(String op) {
-      switch (op) {
-        case "#name":
-            return firstName;
-        case "#color":
-            return furColor;
-        default:
-            return "ERROR";
-      }
+    // Verweiß auf Supercat
+    
     }
 
     public String getAge() {

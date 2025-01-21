@@ -5,7 +5,7 @@ public class App {
     public static void main(String[] args) {
 
         // Instanziierung + Wertzuweisung
-        Cat cat = new Cat("Grizabella", "white", 29, true);
+        Cat cat = new Cat("Grizabella", "white", 29);
 
         // Werte über Getter
         output(cat.getStringAttributes("#name"));
@@ -17,12 +17,12 @@ public class App {
         
         output("-----------------------");
 
-        Cat cat2 = new Cat("Alonzo", "grey", 35, false);
+        Tomcat tomcat = new Tomcat("Alonzo", "grey", 35);
 
         // Werte über Getter
-        output(cat2.getStringAttributes("#name"));
-        output(cat2.getStringAttributes("#color"));
-        output(cat2.getAge());
+        output(tomcat.getStringAttributes("#name"));
+        output(tomcat.getStringAttributes("#color"));
+        output(tomcat.getAge());
 
     }
 

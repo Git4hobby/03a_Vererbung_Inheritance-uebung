@@ -24,6 +24,8 @@ public class App {
         output(tomcat.getStringAttributes("#color"));
         output(tomcat.getAge());
 
+    
+
     }
 
     public static void output(String outputStr){
